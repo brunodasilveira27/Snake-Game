@@ -1,0 +1,81 @@
+@font-face {
+
+  font-family: PressStart;
+  src: url(./../fonts/PressStart2P.ttf);
+
+}
+
+* {
+
+  color: #4B0082;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  user-select: none;
+  font-family: PressStart, cursive;
+
+}
+
+html, body {
+
+  width: 100vw;
+  height: 100vh;
+  background: #FF7F50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.column {
+
+  flex-direction: column;
+
+}
+
+.game-header {
+
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  font-weight: bold;
+  justify-content: space-around;
+
+}
+
+.game-title {
+
+  font-size: 12pt;
+
+}
+
+.game-header label {
+
+  font-size: 8pt;
+
+}
+
+.game-container {
+
+  width: 95%;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+
+#game-canvas {
+
+  box-shadow: 3px 3px 3px 3px #33333370;
+
+}
